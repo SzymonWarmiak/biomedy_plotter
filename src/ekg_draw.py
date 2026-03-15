@@ -7,7 +7,7 @@ from tkinter.scrolledtext import ScrolledText
 import os
 import glob
 import sys
-def wizualizuj_ekg(sciezka_do_pliku):
+def wizualizuj_sygnaly(sciezka_do_pliku):
     try:
         _, ext = os.path.splitext(sciezka_do_pliku) # type: ignore
 
@@ -50,21 +50,61 @@ def wizualizuj_ekg(sciezka_do_pliku):
         y_series = pd.Series(y)
         y_smoothed = y_series.rolling(window=window_size, center=True, min_periods=1).mean()
 
-        line, = plt.plot(x, y, color='blue', linewidth=0.8, label='Sygnał (Oryginalny)')
+        line, = plt.plot(x, y, color='blue', linewidth=0.8, label='Sygnał (Oryginalny)', picker=5)
 
         rozpietosc = y_max - y_min
         margines = rozpietosc * 0.15
         plt.ylim(y_min - margines, y_max + margines)
 
-        plt.title('Wykres sygnału EKG', fontsize=16)
         plt.xlabel('Numer pomiaru (LP)', fontsize=12)
-        plt.ylabel('Amplituda (mV / jednostki)', fontsize=12)
+        plt.ylabel('Amplituda / Wartość', fontsize=12)
         
         plt.grid(True, which='both', linestyle='--', linewidth=0.5)
         
         plt.legend()
         
         plt.subplots_adjust(bottom=0.2)
+
+        # --- Tooltip (interaktywne wartości na wykresie) ---
+        annot = ax.annotate("", xy=(0,0), xytext=(15,15), textcoords="offset points",
+                            bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="gray", lw=1, alpha=0.9),
+                            arrowprops=dict(arrowstyle="->", connectionstyle="arc3,rad=0"))
+        annot.set_visible(False)
+
+        def update_annot(ind):
+            x_data = line.get_xdata()
+            y_data = line.get_ydata()
+            idx = ind["ind"][0]
+            pos_x, pos_y = x_data[idx], y_data[idx]
+            annot.xy = (pos_x, pos_y)
+            
+            try:
+                if float(pos_x).is_integer():
+                    text = f"LP: {int(pos_x)}\nWartość: {float(pos_y):.4f}"
+                else:
+                    text = f"Oś X: {float(pos_x):.4f}\nWartość: {float(pos_y):.4f}"
+            except Exception:
+                text = f"X: {pos_x}\nY: {pos_y}"
+            annot.set_text(text)
+
+        def hover(event):
+            # Ignoruj eventy podczas wciśniętego przycisku myszy (np. przy przesuwaniu lub powiększaniu)
+            if event.button is not None:
+                return
+            
+            if event.inaxes == ax:
+                cont, ind = line.contains(event)
+                if cont:
+                    update_annot(ind)
+                    annot.set_visible(True)
+                    fig.canvas.draw_idle()
+                else:
+                    if annot.get_visible():
+                        annot.set_visible(False)
+                        fig.canvas.draw_idle()
+
+        fig.canvas.mpl_connect("motion_notify_event", hover)
+        # ---------------------------------------------------
 
         def zapisz_wykres(event):
             script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -118,7 +158,7 @@ def wizualizuj_ekg(sciezka_do_pliku):
 
 def uruchom_gui():
     root = tk.Tk()
-    root.title("Wybór pliku EKG")
+    root.title("Wybór pliku EMG / GSR")
     root.geometry("500x500")
 
     tk.Label(root, text="Wybierz plik danych z folderu:").pack(pady=10)
@@ -144,7 +184,7 @@ def uruchom_gui():
             return
         index = sel[0]
         plik = pliki_mapa[index]
-        wizualizuj_ekg(plik)
+        wizualizuj_sygnaly(plik)
 
     tk.Button(root, text="Rysuj Wykres", command=on_click, height=2, bg="#e1e1e1").pack(pady=20)
 
