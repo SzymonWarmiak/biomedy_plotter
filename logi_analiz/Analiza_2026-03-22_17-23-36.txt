@@ -1,0 +1,84 @@
+
+==================================================
+ ROZPOCZĘCIE ANALIZY CHROMATOGRAFICZNEJ 
+ Data i czas: 2026-03-22 17:23:36
+==================================================
+
+Plik: etanol_08u.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 189, Wysokość = 0.39, Pole (A) = 10.41
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 10.41)
+
+Plik: etanol_08u_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 182, Wysokość = 0.31, Pole (A) = 7.88
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 7.88)
+
+Plik: etanol_08u_3.txt
+Znaleziono 2 pików (czasy retencji).
+ Pik 1: Czas retencji = 159, Wysokość = 0.11, Pole (A) = 0.66
+ Pik 2: Czas retencji = 169, Wysokość = 0.07, Pole (A) = 0.50
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 56.77% (k=1.0, Skorygowane pole: 0.66)
+ Składnik 2: stężenie = 43.23% (k=1.0, Skorygowane pole: 0.50)
+
+Plik: etanol_12u.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 168, Wysokość = 0.31, Pole (A) = 5.51
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 5.51)
+
+Plik: etanol_12u_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 171, Wysokość = 0.08, Pole (A) = 0.97
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 0.97)
+
+Plik: etanol_12u_3.txt
+Znaleziono 3 pików (czasy retencji).
+ Pik 1: Czas retencji = 166, Wysokość = 0.10, Pole (A) = 0.74
+ Pik 2: Czas retencji = 180, Wysokość = 0.15, Pole (A) = 1.32
+ Pik 3: Czas retencji = 188, Wysokość = 0.14, Pole (A) = 0.41
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 30.11% (k=1.0, Skorygowane pole: 0.74)
+ Składnik 2: stężenie = 53.50% (k=1.0, Skorygowane pole: 1.32)
+ Składnik 3: stężenie = 16.39% (k=1.0, Skorygowane pole: 0.41)
+
+Plik: etanol_1u.txt
+Znaleziono 2 pików (czasy retencji).
+ Pik 1: Czas retencji = 184, Wysokość = 0.34, Pole (A) = 1.64
+ Pik 2: Czas retencji = 192, Wysokość = 0.35, Pole (A) = 2.67
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 38.04% (k=1.0, Skorygowane pole: 1.64)
+ Składnik 2: stężenie = 61.96% (k=1.0, Skorygowane pole: 2.67)
+
+Plik: etanol_1u_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 193, Wysokość = 0.32, Pole (A) = 7.58
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 7.58)
+
+Plik: etanol_1u_3.txt
+Znaleziono 2 pików (czasy retencji).
+ Pik 1: Czas retencji = 77, Wysokość = 0.05, Pole (A) = 6.00
+ Pik 2: Czas retencji = 182, Wysokość = 0.06, Pole (A) = 0.30
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 95.20% (k=1.0, Skorygowane pole: 6.00)
+ Składnik 2: stężenie = 4.80% (k=1.0, Skorygowane pole: 0.30)
+
+--- Kalibracja bezwzględna (metoda najmniejszych kwadratów) ---
+ Brak wystarczających danych do wyznaczenia prostej. Upewnij się,
+ że nazwy plików wzorców zawierają objętość (np. 'pomiar_4ul.txt').
+==================================================
+

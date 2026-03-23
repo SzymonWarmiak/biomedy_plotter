@@ -1,0 +1,76 @@
+
+==================================================
+ ROZPOCZĘCIE ANALIZY CHROMATOGRAFICZNEJ 
+ Data i czas: 2026-03-22 17:31:42
+==================================================
+
+Plik: metanol_06u.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 82, Wysokość = 0.70, Pole (A) = 7.94
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 7.94)
+
+Plik: metanol_06_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 82, Wysokość = 0.69, Pole (A) = 7.51
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 7.51)
+
+Plik: metanol_06_3.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 85, Wysokość = 0.76, Pole (A) = 9.35
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 9.35)
+
+Plik: metanol_08u.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 86, Wysokość = 0.90, Pole (A) = 12.51
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 12.51)
+
+Plik: metanol_08_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 90, Wysokość = 0.92, Pole (A) = 14.32
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 14.32)
+
+Plik: metanol_08_3.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 81, Wysokość = 0.66, Pole (A) = 6.57
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 6.57)
+
+Plik: metanol_1u.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 96, Wysokość = 1.24, Pole (A) = 27.72
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 27.72)
+
+Plik: metanol_1u_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 103, Wysokość = 0.55, Pole (A) = 18.63
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 18.63)
+
+Plik: metanol_1u_3.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 94, Wysokość = 0.58, Pole (A) = 18.59
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 18.59)
+
+--- Kalibracja bezwzględna: METANOL ---
+ Na podstawie POLA POD PIKIEM (A):
+  Odpowiedź = 34.2584 * V + -13.3742  |  R^2 = 0.9642
+ Na podstawie WYSOKOŚCI PIKU (h):
+  Odpowiedź = 0.2325 * V + 0.6103  |  R^2 = 0.2052
+==================================================
+

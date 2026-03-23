@@ -1,0 +1,76 @@
+
+==================================================
+ ROZPOCZĘCIE ANALIZY CHROMATOGRAFICZNEJ 
+ Data i czas: 2026-03-22 17:15:49
+==================================================
+
+Plik: metanol_pomiar1_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 102, Wysokość = 1.62, Pole (A) = 51.09
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 51.09)
+
+Plik: metanol_pomiar1_3ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 122, Wysokość = 1.87, Pole (A) = 89.65
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 89.65)
+
+Plik: metanol_pomiar1_4ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 90, Wysokość = 0.94, Pole (A) = 101.54
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 101.54)
+
+Plik: metanol_pomiar2_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 105, Wysokość = 1.65, Pole (A) = 51.22
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 51.22)
+
+Plik: metanol_pomiar2_3ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 104, Wysokość = 0.96, Pole (A) = 87.26
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 87.26)
+
+Plik: metanol_pomiar2_4ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 124, Wysokość = 1.04, Pole (A) = 112.86
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 112.86)
+
+Plik: metanol_pomiar3_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 94, Wysokość = 0.54, Pole (A) = 36.33
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 36.33)
+
+Plik: metanol_pomiar3_3ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 119, Wysokość = 1.84, Pole (A) = 87.61
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 87.61)
+
+Plik: metanol_pomiar3_4ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 136, Wysokość = 1.17, Pole (A) = 120.55
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 120.55)
+
+--- Kalibracja bezwzględna (metoda najmniejszych kwadratów) ---
+ Na podstawie POLA POD PIKIEM (A):
+  Odpowiedź = 32.7189 * V + -16.1459  |  R^2 = 0.9741
+ Na podstawie WYSOKOŚCI PIKU (h):
+  Odpowiedź = -0.1092 * V + 1.6204  |  R^2 = 0.1855
+==================================================
+

@@ -1,0 +1,80 @@
+
+==================================================
+ ROZPOCZĘCIE ANALIZY CHROMATOGRAFICZNEJ 
+ Data i czas: 2026-03-22 17:13:28
+==================================================
+
+Plik: e_pomiar_1_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 205, Wysokość = 0.68, Pole (A) = 40.19
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 40.19)
+
+Plik: e_pomiar_1_3ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 242, Wysokość = 0.78, Pole (A) = 58.66
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 58.66)
+
+Plik: e_pomiar_1_4ul.txt
+Znaleziono 2 pików (czasy retencji).
+ Pik 1: Czas retencji = 236, Wysokość = 0.89, Pole (A) = 63.24
+ Pik 2: Czas retencji = 266, Wysokość = 0.88, Pole (A) = 26.95
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 70.12% (k=1.0, Skorygowane pole: 63.24)
+ Składnik 2: stężenie = 29.88% (k=1.0, Skorygowane pole: 26.95)
+
+Plik: e_pomiar_2_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 205, Wysokość = 0.66, Pole (A) = 36.00
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 36.00)
+
+Plik: e_pomiar_2_3ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 237, Wysokość = 0.81, Pole (A) = 59.93
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 59.93)
+
+Plik: e_pomiar_2_4ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 193, Wysokość = 0.35, Pole (A) = 36.50
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 36.50)
+
+Plik: e_pomiar_3_2ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 206, Wysokość = 0.66, Pole (A) = 35.69
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 35.69)
+
+Plik: e_pomiar_3_3ul.txt
+Znaleziono 2 pików (czasy retencji).
+ Pik 1: Czas retencji = 161, Wysokość = 0.36, Pole (A) = 3.27
+ Pik 2: Czas retencji = 229, Wysokość = 0.76, Pole (A) = 33.87
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 8.82% (k=1.0, Skorygowane pole: 3.27)
+ Składnik 2: stężenie = 91.18% (k=1.0, Skorygowane pole: 33.87)
+
+Plik: e_pomiar_3_4ul.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 198, Wysokość = 0.63, Pole (A) = 55.67
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 55.67)
+
+--- Kalibracja bezwzględna (metoda najmniejszych kwadratów) ---
+ Na podstawie POLA POD PIKIEM (A):
+  Odpowiedź = 11.8614 * V + 16.5948  |  R^2 = 0.8367
+ Na podstawie WYSOKOŚCI PIKU (h):
+  Odpowiedź = -0.0222 * V + 0.7562  |  R^2 = 0.0704
+==================================================
+

@@ -1,0 +1,18 @@
+
+==================================================
+ ROZPOCZĘCIE ANALIZY CHROMATOGRAFICZNEJ 
+ Data i czas: 2026-03-22 17:17:54
+==================================================
+
+Plik: mieszanina_2.txt
+Znaleziono 1 pików (czasy retencji).
+ Pik 1: Czas retencji = 82, Wysokość = 0.47, Pole (A) = 13.46
+
+--- Analiza ilościowa: Normalizacja wewnętrzna ---
+ Składnik 1: stężenie = 100.00% (k=1.0, Skorygowane pole: 13.46)
+
+--- Kalibracja bezwzględna (metoda najmniejszych kwadratów) ---
+ Brak wystarczających danych do wyznaczenia prostej. Upewnij się,
+ że nazwy plików wzorców zawierają objętość (np. 'pomiar_4ul.txt').
+==================================================
+
